@@ -1,0 +1,3 @@
+liams_access_token = 'up:yeah:oxgAv5iaouF5T6IWzyOfCLClC0zUMY2NxZ2ZgBfDm0cFEQefJnxEsNWwRMG6O9IDeUFhUbSXlOOqTjHIEigf0N11MJktfM5G1PoVQ1xiFk0qnkQfOOLFkYYeSSk74PHM'
+access_token = 'up:yeah:1y6of9LBUOvt1cTglWnaDXYXFrI1VxvwtTpeqLrgIouK0Kh4HK18nRyw6K8ZJ07fhvSFrpUmxRxq2jZZsw3NyPEGhVZNwaC4tUM8axpOqhNVZTFdz8fVkwFGfj8K4naQ'
+source_url = 'https://api.up.com.au/api/v1'

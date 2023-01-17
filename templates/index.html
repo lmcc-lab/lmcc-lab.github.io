@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="{{url_for('static', filename='raffle_stylesheet.css')}}">
+<!--    <style src="{{url_for('static', filename='stylesheet.css')}}"></style>-->
+  </head>
+  <div class="navbar">
+    <a href="/">Raffles</a>
+    <a href="/stock">Stock</a>
+  </div>
+  <body>
+    <img src="{{url_for('static', filename='logo.png')}}" alt="Logo" class="logo">
+    <!-- Add a search field and a button -->
+    <div class="search-container">
+      <input type="text" class="search-field" id="search-field" placeholder="Enter name. Leave blank to see all names">
+      <button class="search-button" onclick="search()">Search</button>
+      <input type="date" class="start-date" id="start-date">
+      <input type="date" class="end-date" id="end-date">
+    </div>
+    <!-- Add a container for the search results -->
+    <div class="results-container" id="results-container"></div>
+    <!-- Add a script to handle the search function -->
+    <script src="{{url_for('static', filename='script.js') }}" type="text/javascript" onclick=""></script>
+  </body>
+</html>

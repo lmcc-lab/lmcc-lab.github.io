@@ -1,0 +1,27 @@
+<html><head>
+    <link rel="stylesheet" href="/static/stock_stylesheet.css">
+  </head>
+  <body><div class="navbar">
+    <a href="/">Raffles</a>
+    <a href="/stock">Stock</a>
+  </div>
+    <div class="search-container">
+      <input type="text" class="search-field" id="search-field" placeholder="Search for product">
+    </div>
+    <div id="product-box">
+      <label for="product-name">Product Name:</label>
+      <input class="add-product-input" type="text" id="product-name" name="product-name">
+      <br>
+      <div id="drop-zone">
+        <input type="file" id="file-input" name="file-input" multiple="">
+      </div>
+      <button id="add-button" onclick="AddProduct()">Add</button>
+    </div>
+    <img src="/static/logo.png" alt="Logo" class="logo">
+  <div class="items-container">
+
+  </div>
+
+  <script src="/static/script.js" type="text/javascript"></script>
+
+</body></html>
